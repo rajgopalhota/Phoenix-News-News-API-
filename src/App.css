@@ -1,38 +1,67 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  background-color: rgba(0, 0, 47, 0.276);
+  backdrop-filter: blur(22px);
+  box-shadow: 0 0 12px rgb(255, 255, 255);
+}
+.navbar-nav{
+  text-align: center;
+  margin: auto;
+}
+.navbar-nav li{
+  padding: 0 22px;
+}
+.navbar-brand{
+  letter-spacing: 2px;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card{
+  background-color: rgba(0, 0, 0, 0.062);
+  backdrop-filter: blur(24px);
+  padding: 4px;
+  box-shadow: 0 0 12px rgb(0, 0, 0);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card-title{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.card-title p{
+  color: aquamarine;
+}
+.btn{
+  border-radius: 100px;
+  border: 1px solid white;
+  background-color: black;
+}
+.btn:hover{
+  transition: all ease-in-out 0.5s;
+  border-radius: 100px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.attr{
+  color: aqua;
+}
+.active{
+  font-weight: 700;
+}
+.badge{
+  margin: 5px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.attribute{
+  color: aliceblue;
+}
+.attribute a{
+  text-decoration: none;
+}
+.attribute span{
+  text-transform: uppercase;
+  color: rgb(128, 255, 121);
+}
+heart{
+  color: red;
 }

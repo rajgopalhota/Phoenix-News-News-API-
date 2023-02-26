@@ -13,6 +13,7 @@ const App = () => {
 
   return (
     <div>
+      <section></section>
       <NavBar />
       <LoadingBar
         height={3}
